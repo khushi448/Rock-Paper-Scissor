@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  background-color: rgb(79, 7, 7);
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+}
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+.choice:hover {
+  /*opacity: 0.5;*/
+  cursor: pointer;
+  background-color: rgb(79, 7, 7);
+}
+.img {
+  font-size: 120px;
+  /* object-fit: cover;  if it was an image instead of emoji div would have compressed it so we use this to make it normal*/
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+.score-board {
+  display: flex; /*sameline -you and comp*/
+  justify-content: center; /*center of page*/
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+.msg-container {
+  margin-top: 5rem;
+}
+#msg {
+  margin-top: 5remS;
+  background-color: rgb(79, 7, 7);
+  color: #fff;
+  font-size: 2rem;
+  display: inline; /*only giev bckg color to where the text is present*/
+  padding: 1rem;
+  border-radius: 1rem;
+}
